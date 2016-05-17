@@ -29,7 +29,8 @@ module.exports = function (grunt) {
             });
 
             if (!failed) {
-                grunt.file.write(file.dest, extractor.toString());
+                var orig = grunt.file.read(file.dest);
+                grunt.file.write(file.dest, extractor.toString(orig));
             }
         });
     });
