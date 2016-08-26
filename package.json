@@ -46,6 +46,6 @@
     "gettext"
   ],
   "dependencies": {
-    "angular-gettext-tools": "git://github.com/W3GroupFinland/angular-gettext-tools#json"
+    "angular-gettext-tools": "git://github.com/W3GroupFinland/angular-gettext-tools#json-norefs"
   }
 }
